@@ -49,6 +49,9 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
+    <Report Include="Readme.txt">
+      <MimeType>text/plain</MimeType>
+    </Report>
     <Report Include="Report1.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
